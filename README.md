@@ -1,5 +1,5 @@
 # gak2022
-Uppslag för Drupal 9 subtheme till Göteborgs Astronomiska Klubb.
+Ett Bootstrap Barrio subtheme för Drupal 9 till Göteborgs Astronomiska Klubb.
 
 ![GitHub contributors](https://img.shields.io/github/contributors/tcstenungsund/gak2022)
 ![GitHub repo size](https://img.shields.io/github/repo-size/tcstenungsund/gak2022)
