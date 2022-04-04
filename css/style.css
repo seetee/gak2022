@@ -3,7 +3,12 @@
  * Subtheme specific CSS.
  */
 
+<<<<<<< Updated upstream
 h1{
     display: flex;
     font-size: 10em;
+=======
+ h1.js-quickedit-page-title.title {
+    background: red;
+>>>>>>> Stashed changes
 }
