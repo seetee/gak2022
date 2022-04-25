@@ -16,8 +16,11 @@ html{
 }
 
 a.navbar-brand {
-    font-size: 3
-    em;
+    font-size: 3em;
+}
+
+nav#navbar-top {
+  background-color: white;
 }
 
 /* underrubrik */
@@ -54,8 +57,6 @@ a.nav-link.nav-link--node-add:hover {
 }
 
 
-
-
 /* knapp färg */
 
 button#edit-submit {
@@ -66,10 +67,16 @@ button#edit-submit {
 
 /* länkar */
 
-  a {
-    color: #000;
-  }
+a {
+  color: #000;
+}
 
-  a:hover {
-    color: #b58edf;
-  }
+a:hover {
+  color: #b58edf;
+}
+
+/*Footer*/
+
+footer.site-footer {
+  background: #b58edf;
+}
