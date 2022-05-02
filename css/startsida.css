@@ -1,21 +1,21 @@
 /*Startsida*/
 
 nav#navbar-main {
-    background: url(https://cdn.pixabay.com/photo/2018/08/15/11/57/galaxy-3607885_1280.jpg) center;
+    background: url(https://cdn.pixabay.com/photo/2018/08/15/11/57/galaxy-3607885_1280.jpg) no-repeat center;
+    background-size: cover;
     padding: 10em;
     margin-bottom: 2em;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
   }
-  
+
 a.navbar-brand {
   text-align: center;
   width: 75vw;
   margin: 0 auto;
   }
-  
+
 a.nav-link.nav-link--.is-active {
   position: fixed;
   top: 6.5em;
   right: 1.3em;
   }
-  
