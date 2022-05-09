@@ -144,11 +144,18 @@
         <div class="{{ container }}">
           {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
             <div class="site-footer__top clearfix">
+<<<<<<< HEAD:templates/front--page.html.twig
 
               {{ page.footer_first }}
               {{ page.footer_second }}
               {{ page.footer_third }}
 
+=======
+              {{ page.footer_first }}
+              {{ page.footer_second }}
+              {{ page.footer_third }}
+              {{ page.footer_fourth }}
+>>>>>>> 374a1fc56e1231b0f4565362133c89babbafe694:templates/page.html.twig
             </div>
           {% endif %}
           {% if page.footer_fifth %}
