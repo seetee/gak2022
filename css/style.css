@@ -1,4 +1,88 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
+@import url(startsida.css);
+html{
+    font-size: 2.5vmax;
+    font-size: max(2.5vh);
+    font-family: 'Josefin Slab', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* länkar */
+
+a {
+  color: #b58edf;
+}
+
+a:hover {
+  color: #b58edf;
+}
+
+
+/* rubriken på sidan */
+
+.navbar-brand, h2 {
+  font-family: cormorant garamond;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+a.navbar-brand {
+    font-size: 3em;
+}
+
+nav#navbar-top {
+  background-color: white;
+}
+
+
+/* underrubrik */
+
+span.field.field--name-title.field--type-string.field--label-hidden.quickedit-field {
+    font-family: poiret one;
+    text-decoration: none;
+}
+
+
+/* brödtext */
+
+p {
+    font-family: josefin slab;
+    font-weight: 600;
+}
+
+
+/* Tools and search */
+
+aside.section {
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+a.nav-link.nav-link--node-add {
+    color: #b58edf;
+  font-family: cormorant garamond;
+  font-size: 1em;
+}
+
+a.nav-link.nav-link--node-add:hover {
+    color: #533b8e;
+}
+
+
+/* knapp färg */
+
+button#edit-submit {
+    background: #B58EDF;
+    border-color: #B58edf;
+    font-family: josefin slab;
+  }
+
+
+/*Footer*/
+
+footer.site-footer {
+  background: #b58edf;
+  margin-top: 2em;
+}
