@@ -21,33 +21,4 @@
   transform: translate(-5px) scale(1.5);
 }
 
-.navbar::after{
-  background: url(https://cdn.pixabay.com/photo/2018/08/15/11/57/galaxy-3607885_1280.jpg) center;
-  transform: translate(-10px) scale(2);
-}
 
-body {
-  margin: 0;
-}
-
-.navbar::after,
-.navbar::before{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-h1{
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;
-}
-
-section{
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
-}

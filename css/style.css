@@ -7,7 +7,19 @@ html{
     font-weight: normal;
 }
 
+/* länkar */
+
+a {
+  color: #b58edf;
+}
+
+a:hover {
+  color: #b58edf;
+}
+
+
 /* rubriken på sidan */
+
 .navbar-brand, h2 {
   font-family: cormorant garamond;
 }
@@ -32,13 +44,13 @@ span.field.field--name-title.field--type-string.field--label-hidden.quickedit-fi
     text-decoration: none;
 }
 
+
 /* brödtext */
 
 p {
     font-family: josefin slab;
     font-weight: 600;
 }
-
 
 
 /* Tools and search */
@@ -67,22 +79,10 @@ button#edit-submit {
     font-family: josefin slab;
   }
 
-/* länkar */
-
-a {
-  color: #000;
-}
-
-a:hover {
-  color: #b58edf;
-}
 
 /*Footer*/
 
 footer.site-footer {
   background: #b58edf;
+  margin-top: 2em;
 }
-
-
-
-  
