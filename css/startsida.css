@@ -35,7 +35,6 @@ a.navbar-brand {
   }
 
 
-
 a.navbar-brand:hover {
 
       color: #b58edf;
@@ -51,5 +50,23 @@ a.nav-link.nav-link--.is-active {
   top: 6.5em;
 
   right: 1.3em;
+
+  visibility: hidden;
+
+  }
+
+  .nav-link.nav-link--user-login {
+
+  color: #B58EDF;
+
+  font-size: 1.2em;
+
+  
+
+  }
+
+  .nav-link--contact{
+
+    color: whitesmoke;
 
   }
